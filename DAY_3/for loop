@@ -1,0 +1,17 @@
+
+// // product of natural numbers between 1 to n;
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int main()
+// {
+//     int n;
+//     cin >> n;//3 = 1*2*3 = 6
+//     int product = 1;
+//     for(int i = 1; i<=n; i++){
+//         product *= i;
+//     }
+//     cout << product << endl;
+//     cout << endl;
+//     return 0;
+// }

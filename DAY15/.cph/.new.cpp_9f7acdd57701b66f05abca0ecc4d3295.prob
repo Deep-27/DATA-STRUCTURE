@@ -1,0 +1,1 @@
+{"name":"Local: new","url":"d:\\TCAS\\DAY15\\new.cpp","tests":[{"id":1652270131536,"input":"2\n4\n5 4 2 1\n1\n8","output":"5 1\n8 8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\TCAS\\DAY15\\new.cpp","group":"local","local":true}

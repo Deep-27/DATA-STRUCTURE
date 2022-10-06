@@ -1,0 +1,1 @@
+{"name":"Local: STL","url":"d:\\TCAS\\compi prog\\DAY12\\STL.cpp","tests":[{"id":1651161705362,"input":"13\n1 0 1 0 0 0 1 0 1 0 1 0 0","output":"0000000011111"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\TCAS\\compi prog\\DAY12\\STL.cpp","group":"local","local":true}

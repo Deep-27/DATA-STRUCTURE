@@ -1,0 +1,88 @@
+// Operators:
+/* 
+Relational Operators:
+
+==, >, >=, <, <=, !=
+
+int a = 10, b = 20, c = 10;
+
+int d = (a>b);
+int e = (a==c);
+int m = (b<c);
+
+OUTPUT:
+d = 0
+e = 1
+m = 0
+ */
+
+/* 
+Logical Operators:
+&&, ||, !
+
+a = 10, b = 20, c = 100;
+e = ((a==b)&&(!(b<c)));
+
+d = (a<b || b>c)
+
+OUTPUT: 
+e = 0;
+d = 1;
+ */
+
+
+/* 
+Assingment Operators:
+=, +=, -=, *=, /=, %=
+int a = 10;
+int b = 90;
+
+b += a;
+b = b+a;
+
+ */
+
+/*
+Arithematic Operators:
+
+Binary operators:
++, -, *, /, %;
+
+Unary Operators:
+1: Incrementer(++):
+
+TYPE-1:
+int a = 10;
+Pehle Print krro phir increment kro
+a++ = 10, 11, 12, 13;
+
+TYPE-2:
+int b = 10;
+pehle increment krro phir print krro
+++b = 11, 12, 13, 14;
+
+
+1: Decrementer(--):
+TYPE-1:
+
+int m = 10;
+Pehle Print krro phir decrement kro
+m-- = 10, 9, 8, 7, 6, 5;
+
+TYPE-2:
+int n = 10;
+pehle decrement krro phir print krro
+--n = 9, 8, 7, 6, 5;
+
+*/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int a = 1;   
+    int b = ++a * ++a * ++a;
+    cout << b << endl;
+    return 0;
+}

@@ -1,0 +1,1 @@
+{"name":"Local: ezy","url":"d:\\TCAS\\DAY14\\ezy.cpp","tests":[{"id":1652112870680,"input":"1 0 0 1 1 0 1 0 1 0 0 1 0","output":"0 0 0 0 0 0 0 1 1 1 1 1 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\TCAS\\DAY14\\ezy.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: binarysearch","url":"d:\\TCAS\\SEARCHING\\binarysearch.cpp","tests":[{"id":1658158919137,"input":"","output":"The index of 12 is 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\TCAS\\SEARCHING\\binarysearch.cpp","group":"local","local":true}
