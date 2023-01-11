@@ -1,0 +1,1 @@
+{"name":"Local: Valid Parentheses","url":"d:\\DATA STRUCTURE\\STACK\\Valid Parentheses.cpp","tests":[{"id":1673347507091,"input":"{()}[]","output":"Balanced"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DATA STRUCTURE\\STACK\\Valid Parentheses.cpp","group":"local","local":true}

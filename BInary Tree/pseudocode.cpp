@@ -39,7 +39,7 @@ node* buildTree(node* root){
 void levelOrderTransversal(node*root){
     queue<node*>q;
     q.push(root);
-    q.push(NULL);
+    // q.push(NULL);
 
     while(!q.empty()){
         node*temp = q.front();

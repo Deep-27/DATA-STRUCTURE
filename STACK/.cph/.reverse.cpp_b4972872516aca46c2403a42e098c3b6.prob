@@ -1,0 +1,1 @@
+{"name":"Local: reverse","url":"d:\\DATA STRUCTURE\\STACK\\reverse.cpp","tests":[{"id":1673359059603,"input":"3\n2 1 3","output":"2 1 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DATA STRUCTURE\\STACK\\reverse.cpp","group":"local","local":true}
