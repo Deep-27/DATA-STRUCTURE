@@ -2,7 +2,6 @@
 using namespace std;
 
 
-
 class node {
     public: 
         int data;
@@ -37,22 +36,34 @@ node* buildTree(node* root){
 }
 
 void levelOrderTransversal(node*root){
-    queue<node*>q;
+    queue<node*> q;
     q.push(root);
-    // q.push(NULL);
+    q.push(NULL);
 
-    while(!q.empty()){
-        node*temp = q.front();
-        cout<<temp->data<<" ";
+    while(!q.empty()) {
+        node* temp = q.front();
         q.pop();
 
-        if(temp ->left ){
-            q.push(temp->left);
+        if(temp == NULL) { 
+            //purana level complete traverse ho chuka hai
+            cout << endl;
+            if(!q.empty()) { 
+                //queue still has some child ndoes
+                q.push(NULL);
+            }  
         }
-        if(temp-> right ){
-            q.push(temp->right);
+        else{
+            cout << temp -> data << " ";
+            if(temp ->left) {
+                q.push(temp ->left);
+            }
+
+            if(temp ->right) {
+                q.push(temp ->right);
+            }
         }
     }
+
 }
 
 int main(){
